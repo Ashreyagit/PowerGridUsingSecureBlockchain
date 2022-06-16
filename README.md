@@ -1,4 +1,5 @@
 # PowerGridUsingSecureBlockchain
-1. Contract `registerNode.sol` registers a smart Node through its wallet address on the blockchain network which enables it to participate in the Power Grid Transmission.
-2. Contract `PowerGridTransaction.sol` creates send/receive transactions and logs them.
-3. The array `producerpower` in `PowerGridTransaction.sol` stores the total Power transferred from the main supplier per transaction.
+1. Smart Contract `registerNode.sol` registers a smart Node on the blockchain network through its wallet address thereby enabling it to take part in the Power Grid Transmission. 
+2. Smart Contract `PowerGridTransaction.sol` helps to create send/receive transactions and logs them.
+3. The `producerpower` array in `PowerGridTransaction.sol` stores the aggregate Power transferred from the prime supplier.
+4. Modifier is used to ensure that only registered meters can create orders
