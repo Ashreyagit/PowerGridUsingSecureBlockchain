@@ -2,7 +2,7 @@ pragma solidity >=0.4.22;
 
 import "./registerNode.sol";
 
-contract PowerGridTransaction is registerNode {
+contract PowerTradingTransaction is registerNode {
 
     struct SellPower {
     address producer;
